@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
@@ -8,20 +7,22 @@
 </head>
 <body>
 
+
 <form action="insert.php" method="POST">
     <label style="display:block">Username</label>
     <input type="text" name="username"  >
 
     <label style="display:block">Email Address</label>
-    <input type="text" name="email"  >
+    <input type="email" name="email"  >
 
     <label style="display:block">Phone Number</label>
-    <input type="text" name="Phonenumber"  >
+    <input type="tel" name="mobile"  >
 
-    <label style="display:block">Profile Link *FaceBook* </label>
-    <input type="text" name="Linkfacebook"  >
+    <label style="display:block">Link Of Facebook</label>
+    <input type="text" name="link"  >
 
-    <input type="submit" style="display:block; margin-top:5px; " value="save">
+
+    <input type="submit" name="add" value="add New">
 </form>
 
 
